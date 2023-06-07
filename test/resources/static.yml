@@ -1,0 +1,15 @@
+matches:
+  - trigger: "hello"
+    replace: "world"
+  - trigger: "hello"
+    replace: "line1\nline2"
+  - trigger: "include newlines"
+    replace: |
+              exactly as you see
+              will appear these three
+              lines of poetry
+  - trigger: "fold newlines"
+    replace: >
+              this is really a
+              single line of text
+              despite appearances
